@@ -12,11 +12,10 @@ public class App
     {
     	GeodeticCalculator geodeticCalculator = new GeodeticCalculator();
         GlobalCoordinates coordinates = geodeticCalculator.calculateEndingGlobalCoordinates(
-        	// Ellipsoid ellipsoid, GlobalCoordinates start, double startBearing, double distance, double[] endBearing
                 Ellipsoid.WGS84, 
                 new GlobalCoordinates(1, 2), 
                 0, 
                 0);
-        // printf("Hello world!");
+        System.out.printf("Hello world!");
     }
 }
